@@ -1,0 +1,27 @@
+div{
+	margin: auto;
+	width: 900px;
+}
+p{
+	padding: 10px 20px 10px 20px;
+	font-size: 18px;
+}
+
+h1{
+	text-align: center;
+	padding-top: 20px;
+	color: #828231;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	font-size: large;
+	font-style: oblique;
+	font-size: 22px;
+	margin-right: 10px;
+}
+
+.pub-picture{
+	border: double #c4c4b8 10px;
+}

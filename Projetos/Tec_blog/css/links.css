@@ -1,0 +1,36 @@
+ul#menu li{
+  	display:inline;
+  	list-style-type: none;
+}
+
+li a{
+	text-decoration: none;
+	margin: 8px;
+	padding: 4px;
+	color: white;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+li a:hover{
+	text-decoration: none;
+	margin: 8px;
+	color: black;
+	font-weight: bold;
+	transition: 1s;
+}
+
+.read-more{
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+	font-style: italic;
+}
+
+.read-more:hover{
+	color: #f7da1c;
+	text-decoration: none;
+	font-size: 18px;
+	font-style: italic;	
+	transition: 0.5s;
+}

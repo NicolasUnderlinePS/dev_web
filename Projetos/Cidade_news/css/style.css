@@ -1,0 +1,9 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	height:300px;
+	background: rgb(41, 76, 113) repeat-x url(../img/fundo.png)  bottom;
+}
