@@ -1,25 +1,31 @@
 main{
-	height: 900px;
 	background: linear-gradient(to bottom, #ffffff 0%, #f4f4f4 100%);
 }
 
 #content{
-	width: 750px;
+	width: 760px;
 	padding: 20px;
 	margin: auto;
 }
+
+
+
 
 .primary-div{
 	width: 280px;
 	float: left;
 	margin: 0px 0px 20px 170px;
+	padding: 2px;
 	background: #fafafa;
 	border-radius: 5px;
 	box-shadow: 2px 2px 10px #888888;	
 }
 
+
+
 .div-publicacao{
 	margin: 20px 0px;
+	border-bottom: 1px solid #c2bebb;
 }
 
 .title-publicacao{
@@ -33,6 +39,7 @@ main{
 .second-div{
 	width: 280px;
 	float: left;
+	padding: 2px;	
 	margin: 0px 0px 20px 20px;
 	background: #fafafa;
 	border-radius: 5px;
@@ -42,6 +49,7 @@ main{
 .nav-bar-div{
 	float: left;
 	width: 150px;
+	padding: 2px;
 	margin: 0px 0px 0px -750px;
 	background: #fafafa;
 	border-radius: 5px;
@@ -58,28 +66,53 @@ main h2{
 	font-family: monospace, sans-serif;
 }
 
-#lat-nav-bar{
-	list-style-type: none;
-}
 
-#lat-nav-bar a {
+figure a{
 	text-decoration: none;
-	font-weight: bold;
-	font-size: 16px;
-
+	color: gray;
 }
 
-#lat-nav-bar a li{ 
-	padding: 10px 0px;
+figure a:hover{
 	text-decoration: none;
-	margin: 1px 10px;
-	border-bottom: 1px solid #c2bebb;
+	color: red;
+	transition: 0.5s;
 }
 
-#lat-nav-bar a li p{ 
-	color: #e63333;
-	font-size: 16px;
-	text-indent: 2px;
+.botton-notice-div{
+
+}
+
+.botton-notice-div img{
+	padding: 2px;
+	border-radius: 5px;
+	display: flex;
+}
+
+.botton-notice-div ul li{
+	text-decoration: none;
+	display: flex;
+	padding: 5px 0px;
+	border-bottom: 1px solid #dfdfdf;
+}
+
+.botton-notice-div ul li:hover{
+	background: #f0eeec;
+	text-decoration: none;
+	display: flex;
+	padding: 5px 0px;
+	border-bottom: 1px solid #dfdfdf;
+	transition: 0.5s;
+}
+
+.botton-notice-div ul li a{
+	margin-left: 10px;
+	text-decoration: none;
+	color: black;
+}
+.botton-notice-div ul li a h3{
+	display: inline-block;
+	color: red;
+
 }
 
 footer{

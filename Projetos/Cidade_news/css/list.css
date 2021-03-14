@@ -1,0 +1,32 @@
+#lat-nav-bar{
+	list-style-type: none;
+}
+
+#lat-nav-bar a {
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 16px;
+
+}
+
+#lat-nav-bar a li{ 
+	padding: 10px 0px;
+	text-decoration: none;
+	margin: 1px 10px;
+	border-bottom: 1px solid #c2bebb;
+}
+
+#lat-nav-bar a li:hover{ 
+	padding: 9px 0px;
+	font-size: 18px;
+	text-decoration: none;
+	margin: 1px 10px;
+	border-bottom: 1px solid #c2bebb;
+	transition: 0.3s;
+}
+
+#lat-nav-bar a li p{ 
+	color: #e63333;
+	font-size: 16px;
+	text-indent: 2px;
+}
