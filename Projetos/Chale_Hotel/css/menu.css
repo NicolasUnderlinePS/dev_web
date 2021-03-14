@@ -1,0 +1,56 @@
+#menu-conteudo{
+	margin-left: 90px;
+	margin-right: 20px;
+	padding-top: 20px;
+}
+
+#menu-local{
+	border: 1px solid #a38e34;
+	border-left: none;
+	border-right: none;
+	color: #a38e34;
+	padding: 5px 0px;
+}
+
+#menu-local span{
+	color: #a38e34;
+	float: left;
+	line-height: 30px; /*centralizar pela altura*/
+}
+
+.link-reserva{
+	background: #a38e34;
+	color: white;
+	text-transform: uppercase;
+	text-decoration: unset;
+	padding: 5px 10px;
+	float: right;
+}
+
+
+#menu-lista{
+	margin-top: 10px;
+}
+
+#menu{
+	list-style-type: none;
+	float: left;
+}
+
+#menu li{
+	color: #a38e34;
+	line-height: 30px;
+}
+
+#menu li:hover{
+	color: white;
+	transition: 0.3s;
+	line-height: 30px;
+}
+
+.depoimento{
+	width: 225px;
+	height: 165px;
+	float: right;
+	text-decoration: 0px;
+}
