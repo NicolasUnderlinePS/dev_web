@@ -1,0 +1,33 @@
+a{
+	text-decoration: none;
+	color: #a38e34;
+
+}
+
+.titulo-conteudos{
+	color: #857224;
+}
+.titulo-rodape{
+	text-align: center;
+	padding: 40px 0px 0px 0px;
+	color: #857224;
+}
+span .titulo-conteudos{
+	color: #a38e34;
+	margin-bottom: 20px;
+	background: url(../img/ornamento.png) right center no-repeat;
+}
+
+.titulo-conteudos + p{
+	color: #a38e34;
+	margin-bottom: 20px;
+}
+
+.servicos-lateral-div p{
+	color: red;
+}
+
+p{
+	color: #a38e34;
+	margin: 20px 0px;
+}

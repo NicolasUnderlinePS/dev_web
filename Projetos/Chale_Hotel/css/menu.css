@@ -46,6 +46,7 @@
 	color: white;
 	transition: 0.3s;
 	line-height: 30px;
+	cursor: pointer;
 }
 
 .depoimento{
@@ -53,4 +54,29 @@
 	height: 165px;
 	float: right;
 	text-decoration: 0px;
+}
+
+#servicos-menu{
+	list-style-type: none;
+}
+
+#servicos-menu img{
+	width: 125px;
+	float: left;
+	margin-right: 20px;
+}
+
+#servicos-menu li{
+	margin: 20px auto;
+	padding: 20px 5px;
+	border-bottom: 1px solid white;
+}
+
+#servicos-menu li:hover{
+	margin: 20px auto;
+	padding: 20px 5px;	
+	border-bottom: 1px solid white;
+	background: #f6f6d3;
+	transition: 0.4s;
+	cursor: pointer;
 }

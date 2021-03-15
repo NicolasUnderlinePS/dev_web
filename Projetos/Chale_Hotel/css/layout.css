@@ -50,7 +50,32 @@ header{
 
 
 #container{
-	border: red solid 1px;
+	background: url(../img/bg-container.png) top center repeat-y;
 	margin: 0px auto;
 
+}
+
+#conteudo-principal{
+	background: url(../img/bg-area-principal.png) top left repeat-x;
+	float: left;
+	width: 50%;
+}
+
+#conteudo-lateral{
+	background: url(../img/bg-area-lateral.png) top left repeat-x;
+	float: right;
+	width: 50%;
+}
+
+.conteudos{
+	margin: 0 auto;
+	width: 90%;
+	padding: 20px;
+
+}
+
+footer{
+	clear: both;
+	height: 150px;
+	background: rgb(239,234,204) url(../img/bg-area-principal.png) top left repeat-x;
 }
