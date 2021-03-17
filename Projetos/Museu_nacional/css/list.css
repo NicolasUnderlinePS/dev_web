@@ -1,0 +1,33 @@
+#nav-bar-list{
+	list-style-type: none;
+	text-transform: uppercase;
+	margin-right: 25px;
+}
+
+#nav-bar-list li{
+ 	float: left;
+ 	padding: 0px 5px 0px 5px;
+	font-size: 22px;
+	margin-left: 10px;
+	color: orange;
+	cursor: pointer;
+}
+
+#nav-bar-list li:hover{
+ 	float: left;
+ 	color: green;
+	font-size: 22px;
+	margin-left: 10px;
+	border-bottom: 1px solid orange;
+	transition: 0.5s;
+
+}
+
+#photo-list{
+	list-style-type: none;
+	width: 100%;
+}
+#photo-list li{
+	background: red;
+
+}
