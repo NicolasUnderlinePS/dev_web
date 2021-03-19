@@ -1,0 +1,95 @@
+#container{
+	width: 720px;
+	margin: 0 auto;
+
+}
+
+.marca{
+	float: right;
+	background-color: gray;
+	text-align: center;
+	line-height: 100px;
+}
+
+.conteudo{
+	background: url(./imagens/coluna.png);
+	padding: 0px 15px;
+	margin: 0px 10px;
+	width: 220px;
+	float: right;
+}
+
+.navegacao{
+	width: 170px;
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+
+.rodape{
+	background: green;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	clear: both;
+
+}
+
+ul{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+
+
+ul a{
+	color: black;
+	text-indent: 30px;
+	line-height: 40px;
+	text-decoration: none;
+	width: 170px;
+	height: 40px;
+	display: block;
+	border-bottom: solid 0.1px;
+ 	border-top: solid 0.1px;
+	background: #f7b600;
+
+}
+
+/*
+.select-page a{
+	color: black;
+	text-indent: 30px;
+	line-height: 40px;	
+	text-decoration: none;
+	width: 200px;
+	height: 40px;
+	display: block;
+	border-bottom: solid 0.1px;
+ 	border-top: solid 0.1px;
+	background: #f99200 url(./imagens/menu.png) no-repeat right;
+}
+*/
+
+#home #navegacao-lateral .home a,
+#phone #navegacao-lateral .phone a{
+	background-position: right bottom;
+
+}
+
+
+
+ul a:hover{
+	color: black;
+	text-indent: 30px;
+	line-height: 40px;	
+	text-decoration: none;
+	width: 180px;
+	height: 40px;
+	display: block;
+	border-bottom: solid 0.1px;
+ 	border-top: solid 0.1px;
+	background: #f99200;
+	transition: 0.5s;
+}

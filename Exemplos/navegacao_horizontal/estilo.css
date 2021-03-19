@@ -1,0 +1,36 @@
+ul{
+	list-style-type: none;
+	border: solid 1px #15aaaa;
+	margin: 0px;
+	padding: 0px;
+	width: 720px;
+	background: #1596b0 url(./imagens/fundo-horizontal.png) repeat-x;
+	float: left;
+}
+
+ul li{
+	float: left;
+}
+
+Ul a{
+	display: block;
+	padding: 20px;
+	line-height: 10px;
+	text-decoration: none;
+	color: white;
+	background: repeat-y url(./imagens/divisor.png) left;
+}
+
+ul .primeiro a{
+	background: none;
+}
+li:hover{
+	background-color: #1aaaaa;
+	transition: 0.4s;
+}
+
+#home  ul .home a,
+#phone .phone a{
+	background: #1aaaaa;
+
+}

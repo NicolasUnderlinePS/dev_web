@@ -1,0 +1,71 @@
+/*ul>li{
+	list-style: none;
+	border: 1px red solid;
+	padding-left: 20px;
+	background: url(./imagens/seta.png) no-repeat center left;
+}
+
+ul{
+	margin: 0px;
+	padding: 0px;
+
+}*/
+
+ul{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+
+
+ul a{
+	color: black;
+	text-indent: 30px;
+	line-height: 40px;
+	text-decoration: none;
+	width: 200px;
+	height: 40px;
+	display: block;
+	border-bottom: solid 0.1px;
+ 	border-top: solid 0.1px;
+	background: #f7b600 url(./imagens/menu.png) no-repeat;
+
+}
+
+/*
+.select-page a{
+	color: black;
+	text-indent: 30px;
+	line-height: 40px;	
+	text-decoration: none;
+	width: 200px;
+	height: 40px;
+	display: block;
+	border-bottom: solid 0.1px;
+ 	border-top: solid 0.1px;
+	background: #f99200 url(./imagens/menu.png) no-repeat right;
+}
+*/
+
+#home #navegacao-lateral .home a,
+#phone #navegacao-lateral .phone a{
+	background-position: right bottom;
+
+}
+
+
+
+ul a:hover{
+	color: black;
+	text-indent: 30px;
+	line-height: 40px;	
+	text-decoration: none;
+	width: 200px;
+	height: 40px;
+	display: block;
+	border-bottom: solid 0.1px;
+ 	border-top: solid 0.1px;
+	background: #f99200 url(./imagens/menu.png) no-repeat right;
+	transition: 0.5s;
+}

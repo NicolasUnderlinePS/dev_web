@@ -1,0 +1,24 @@
+@keyframes animacao-div{
+	from{
+		background: orange;
+		height: 300px;
+		width: 300px;
+	}
+	to{
+		height: 300px;
+		width: 300px;
+		text-indent: 150px;
+		background: yellow;
+		border-radius: 300px;
+	}
+}
+
+div{
+	background: orange;
+	height: 300px;
+	width: 300px;
+	animation-name: animacao-div;
+	animation-duration: 5s;
+	animation-delay: 3s;
+	animation-iteration-count: 2;
+}
