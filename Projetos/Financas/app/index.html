@@ -12,11 +12,178 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
+    <!-- Meu CSS -->
+    <link rel="stylesheet" type="text/css" href="../css/conteudos.css">
+    <link rel="stylesheet" type="text/css" href="../css/header.css">
+
     <title>Olá, mundo!</title>
   </head>
   <body>
+    <header class="border-bottom">
 
+      <!-- Barra de navegação responsiva-->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-warning"> 
+        <div class="container">
+          <a href="" class="navbar-brand">
+            <img src="../img/logo.png" width="150px;" alt="Finans">
+          </a>
+          <!-- Botão responsivo do menu -->
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#menu_navegacao">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
+          <!-- Barra colapsada -->
+          <div class="collapse navbar-collapse " id="menu_navegacao">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a href="#" class="nav-link text-dark">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a href="" class="nav-link text-dark">Benefícios</a>
+                </li>            
+                <li class="nav-item">
+                  <a href="" class="nav-link text-dark">Conteúdos</a>
+                </li>
+                <li class="nav-item">
+                  <a href="" class="nav-link text-dark">Preços</a>
+                </li>              
+                <li class="nav-item">
+                  <button type="button" href class="btn btn-outline-dark ml-5">
+                    Acessar
+                  </button>
+                </li>                  
+              </ul>
+          </div> 
+        </div>      
+      </nav>
+
+      <!-- Conteúdo do cabeçalho -->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 d-flex">
+            <!-- Conteúdos da esquerda -->
+            <div class="align-self-center">
+              <div class="text-white display-4 align-self-center">
+                <strong>
+                  Suas contas, descomplicadas
+                </strong>
+              </div>
+              <div class="text-white mt-3">
+                Mais de 1 milhão de usuários no mundo todo, nossa feramenta vai facilitar sua vida financeira como nunca.
+              </div>
+              <div class="input-group input-group-lg mt-2">
+                <input class="form-control form-control-lg" type="text" placeholder="Seu Email" >
+                <div class="input-group-append">
+                  <button type="button" class="btn btn-dark display-4">Cadastrar-se</button>
+                </div>
+              </div>  
+              <!-- Plataformas -->
+              <div class="text-white mt-2">
+                <p>
+                  Disponível nas plataformas:
+                  <a href=""><i class="fab fa-android fa-lg text-white border p-2 rounded border-white "></i></a>
+                  <a href=""><i class="fab fa-apple fa-lg fa-lg text-white border p-2 rounded border-white"></i></a>
+                </p>
+              </div>   
+            </div>       
+          </div>
+
+          <!-- Foto de capa -->
+          <div class="col-md d-none d-lg-block">
+            <img src="../img/capa-mulher.png">
+          </div>
+
+        </div>
+      </div>        
+    </header>
+
+    <main>
+      <!-- Saiba mais -->
+      <section class="conteudo-sessao border-bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 d-flex">
+              <div class="align-self-center">
+                <h2>Para onde vai o seu dinheiro?</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing, elit. Magnam natus ullam, assumenda animi quae velit debitis laborum rem enim expedita quaerat, aliquid provident laudantium ipsum! Consectetur maiores vel ut repellat! 
+                </p>
+                <a href="" class="btn btn-outline-dark">Saiba Mais</a>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <img src="../img/saiba.png" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Juros -->
+      <section class="conteudo-sessao border-bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <img src="../img/juros.png" class="img-fluid">
+            </div>            
+            <div class="col-lg-6 d-flex">
+              <div class="align-self-center">
+                <h2>Como lidar com os juros?</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing, elit. Magnam natus ullam, assumenda animi quae velit debitis laborum rem enim expedita quaerat, aliquid provident laudantium ipsum! Consectetur maiores vel ut repellat! 
+                </p>
+                <a href="" class="btn btn-outline-dark mb-2">Saiba Mais</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>      
+      <section>
+        <!-- Recursos-->
+        <div class="container"><!-- container-fluid -->
+          <div class="row">
+            <div class=" col-sm-12 col-lg-4" >              
+              <img src="../img/facil.png" class="img-fluid">
+              <h3>Facilidade nos pagamentos</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione officiis fuga laboriosam odit! Repellat iusto dolores provident adipisci minus harum cumque perferendis eius, numquam praesentium eos nobis inventore, at quam!</p>
+            </div>    
+            <div class=" col-sm-12 col-lg-4">              
+              <img src="../img/economize.png" class="img-fluid">              
+              <h3>Economize seu tempo</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, earum assumenda quibusdam natus est harum veritatis ipsam consequatur vitae doloribus quisquam consectetur. Provident perferendis minus ab officiis deserunt autem aperiam.</p>
+            </div> 
+            <div class=" col-sm-12 col-lg-4">
+              <img src="../img/suporte.png" class="img-fluid">              
+              <h3>Suporte 24 horas</h3>              
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, earum assumenda quibusdam natus est harum veritatis ipsam consequatur vitae doloribus quisquam consectetur. Provident perferendis minus ab officiis deserunt autem aperiam.</p>
+            </div>
+          </div>
+        </div>    
+      </section>        
+    </main>
+    <footer class="border-top">
+      <div class="container">
+        <!-- Lista do roda pé -->
+        <div class="row">
+          <div class="col-lg-8">
+            <ul class="list-inline pt-2">
+              <li class="list-inline-item"><a href="#" class="text-primary"><strong>Home</strong></a></li>
+              <li class="list-inline-item"><a href="#" class="text-primary"><strong>Benefícios</strong></a></li>
+              <li class="list-inline-item"><a href="#" class="text-primary"><strong>Conteúdos</strong></a></li>
+              <li class="list-inline-item"><a href="#" class="text-primary"><strong>Preços</strong></a></li>
+            </ul>
+          </div>
+          <div class="col-lg-4 pt-2">
+            <p class="text-right">
+              <a href=""><i class="fab fa-instagram fa-lg text-dark border p-2 rounded border-dark "></i></a>
+              <a href=""><i class="fab fa-facebook ml-2 fa-lg fa-lg text-dark border p-2 rounded border-dark"></i></a>
+              <a href=""><i class="fab fa-twitter ml-2 fa-lg fa-lg text-dark border p-2 rounded border-dark"></i></a>   
+              <a href=""><i class="fab fa-linkedin ml-2 fa-lg fa-lg text-dark border p-2 rounded border-dark"></i></a>     
+              <a href=""><i class="fab fa-youtube ml-2 fa-lg fa-lg text-dark border p-2 rounded border-dark"></i></a>                                      
+            </p>
+          </div>
+        </div>
+        <h4 class="text-center text-secondary">Desenvolvido Nicolas Pereira Silva</h4>
+      </div>
+    </footer>
   </body>
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
