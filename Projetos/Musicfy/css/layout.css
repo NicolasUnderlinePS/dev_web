@@ -1,0 +1,21 @@
+html, body, #home{
+	height: 100%;
+	/*Esconder a barra lateral*/
+	overflow-x: hidden;
+}
+
+
+body{
+	background: url(../img/capa.png),
+				url(../img/ruido.png),
+				linear-gradient(to left, #66ccff 0%, #ff0066 100%);
+	background-attachment: fixed;
+
+}
+
+footer{
+	padding-top: 20px;
+	padding-bottom: 100px;
+	background: rgba(0,0,0, 1);
+	position: relative;
+}

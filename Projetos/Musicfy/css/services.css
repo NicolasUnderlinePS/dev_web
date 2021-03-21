@@ -1,0 +1,68 @@
+.servicos{
+	background: white;
+	margin: 25px 0px 475px 0px;
+	padding: 25px 0px;
+}
+
+.servicos-final{
+	background: white;
+	margin: 25px 0px 75px 0px;
+	padding: 25px 0px;
+}
+
+.capa-album{
+	box-shadow: 3px 1px rgba(0,0,0,0.3);
+}
+
+.servicos h2, .servicos-final h2{
+	font-size: 30px;
+	margin-bottom: 20px;
+	letter-spacing: 1px;
+	font-weight: bold;	
+	color: #ff0066;
+}
+
+.servicos h3, .servicos-final h3{
+	font-size: 25px;
+	letter-spacing: 1px;
+	font-weight: bold;		
+	color: #66ccff;
+}
+
+.servicos p, .servicos-final p{
+	text-indent: 16px;
+	font-size: 18px;
+	color: black;
+	text-shadow: 3px 1px rgba(255,255,255, 1);
+}
+
+.recursos h2{
+	font-size: 35px;
+	letter-spacing: 1px;
+	font-weight: bold;
+	text-shadow: 3px 1px rgba(0,0,0, 1);	
+	color: #ff0066;
+}
+
+.recursos h3{
+	font-size: 30px;
+	text-shadow: 3px 1px rgba(0,0,0, 1);
+	letter-spacing: 1px;
+	font-weight: bold;		
+	color: #99ccff
+}
+
+. p{
+	font-size: 24px;
+	color: white;
+	text-shadow: 3px 1px rgba(0,0,0, 1);
+}
+
+.albuns-superior{
+	margin-bottom: 25px;
+}
+
+.rotacionar{
+	transform: rotate(30deg);
+	padding-left: 25px;
+}

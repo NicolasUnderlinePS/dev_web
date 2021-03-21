@@ -1,0 +1,21 @@
+/*Capa da Home*/
+.capa{
+	text-align: center;
+}
+
+/*Lista do menu*/
+.navbar-nav  a{
+	color: white;
+
+}
+
+.navbar-nav  a:hover{
+	transition: 0.5s;
+	color: #33ccff;
+	text-decoration: none;
+}
+
+.top-nav-bar{
+	padding: 10px 0px;
+	background: rgba(0,0,0, 0.7);
+}
