@@ -14,8 +14,10 @@
 	box-shadow: 3px 1px rgba(0,0,0,0.3);
 }
 
+
 .servicos h2, .servicos-final h2{
 	font-size: 30px;
+	margin-top: 10px;
 	margin-bottom: 20px;
 	letter-spacing: 1px;
 	font-weight: bold;	

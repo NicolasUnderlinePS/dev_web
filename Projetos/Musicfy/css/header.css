@@ -3,6 +3,14 @@
 	text-align: center;
 }
 
+/*Setas do carrosel*/
+.carousel-control-next, .carousel-control-prev{
+	width: 1%;
+}
+.carousel-control-next:hover, .carousel-control-prev:hover{
+	width: 0%;
+}
+
 /*Lista do menu*/
 .navbar-nav  a{
 	color: white;
