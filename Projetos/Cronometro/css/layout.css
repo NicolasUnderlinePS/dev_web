@@ -1,0 +1,52 @@
+body{
+	background: url(../img/outono.jpg);
+	height: 100%;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	overflow-x: hidden;
+  	overflow-y: hidden;
+}
+
+.inverno{
+	transition: 1s;
+	background: url(../img/inverno.jpg);
+	height: 100%;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+.outono{
+	transition: 1s;
+	background: url(../img/outono.jpg);
+	height: 100%;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+.primavera{
+	transition: 1s;
+	background: url(../img/primavera.jpg);
+	height: 100%;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+.verao{
+	transition: 1s;
+	background: url(../img/verao.jpg);
+	height: 100%;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+h1{
+	color: white;
+	text-align: center;
+	font-size: 125px;
+	text-shadow: 5px 3px rgba(0,0,0,0.9);
+}
