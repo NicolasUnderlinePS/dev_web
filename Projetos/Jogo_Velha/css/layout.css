@@ -1,0 +1,36 @@
+body{
+	background: url(../img/bg.jpg);
+	height: 100%;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	overflow-x: hidden;
+  	overflow-y: hidden;
+}
+
+.place{
+	background: url(../img/place.png);
+	margin: 1px;
+	width: 200px;
+	height: 200px;
+  	background-repeat: no-repeat;
+
+}
+
+.place-x{
+	background: url(../img/place-x.png);
+	margin: 1px;
+	width: 200px;
+	height: 200px;
+  	background-repeat: no-repeat;
+
+}
+
+.place-o{
+	background: url(../img/place-o.png);
+	margin: 1px;
+	width: 200px;
+	height: 200px;
+  	background-repeat: no-repeat;
+
+}

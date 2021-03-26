@@ -1,0 +1,44 @@
+<html>
+	<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+  	<link rel="stylesheet" type="text/css" href="../css/layout.css">
+
+    <title>Mata Mosquito</title>
+
+    <link rel="icon" type="text/css" href="../img/icon.png">    
+	</head>
+  <body onresize="getSizeWindow()">
+    <div class="container bg-white rounded p-5 mt-5">
+      <label style="display: block;">Selecione a dificuldade do jogo</label>
+      <div class="row">
+        <div class="col-12">
+          <div class="form-group">
+            <select class="selectpicker form-control">
+              <option value="1">Fácil</option>
+              <option value="2">Normal</option>
+              <option value="3">Difícil</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <br>
+      <button onclick="ativar()" class="btn btn-outline-dark btn-block">Jogar</button>
+    </div>
+    <img id="mosquito" class="mosca1" src="../img/mosca.png"><img class="mosca2"src="../img/mosca.png"><img class="mosca3"src="../img/mosca.png">
+  </body>	
+    <script type="text/javascript" src="../script/script.js"></script>
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</html>
